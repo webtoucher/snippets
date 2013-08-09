@@ -11,3 +11,5 @@ echo '<b>КОДИРОВАНИЕ IP</b>' . PHP_EOL . PHP_EOL;
 echo SOME_IP . ' -> ' . $ipEncoded . PHP_EOL . PHP_EOL;
 echo '<b>ДЕКОДИРОВАНИЕ IP</b>' . PHP_EOL . PHP_EOL;
 echo $ipEncoded . ' -> ' . longToIp($ipEncoded);
+
+echo '</pre>';
