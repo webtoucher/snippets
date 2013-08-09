@@ -2,6 +2,7 @@
 header('Content-Type: text/html; charset=utf-8');
 require_once '../../helpers/ip.php';
 
-$ipEncoded = ipToLong('255.123.2.0');
+const SOME_IP = '255.123.2.0';
 
-echo $ipEncoded . ' -> ' . longToIp($ipEncoded);
+$ipEncoded = ipToLong(SOME_IP);
+echo SOME_IP . ' -> ' . $ipEncoded . ' -> ' . longToIp($ipEncoded);
