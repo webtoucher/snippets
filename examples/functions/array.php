@@ -1,6 +1,6 @@
 <?php
 header('Content-Type: text/html; charset=utf-8');
-require __DIR__ . '/../../helpers/array.php';
+require __DIR__ . '/../../functions/array.php';
 
 echo '<pre>';
 
